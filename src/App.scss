@@ -1,0 +1,12 @@
+.app {
+    & > h1 {
+        text-align: center;
+        font-size: 2.5rem;
+    }
+
+    &_mainContainer {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+}
